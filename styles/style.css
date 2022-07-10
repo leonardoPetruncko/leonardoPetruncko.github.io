@@ -591,3 +591,52 @@ h3 .my-profession {
     text-align: justify;
     color: var(--text-black-900);
 }
+
+/* Portfolio */
+
+.portfolio .container {
+    padding-bottom: 40px;
+}
+
+.portfolio .portfolio-heading {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.portfolio .portfolio-heading h2 {
+    color: var(--text-black-900);
+    font-weight: 500;
+}
+
+/* Config das Imagens - Não precisa diminuir as imagens só usar isso */
+
+.portfolio .portfolio-item {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+
+.portfolio .portfolio-item-inner {
+    border: 6px solid var(--bg-black-100);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.portfolio .portfolio-item-inner .portfolio-img img {
+    width: 100%;
+    display: block;
+}
+
+/* Cor do nome do projeto */
+
+.portfolio .portfolio-item-inner .portfolio-img a {
+    color: var(--text-black-900);
+}
+
+/* Imagem pulando portfolio  */
+
+.portfolio-item:hover {
+    transform: translateY(-15px);
+}
