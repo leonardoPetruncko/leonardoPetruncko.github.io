@@ -761,6 +761,12 @@ color: var(--text-black-700);
       font-weight: 500;
 }
 
+.portfolio .portfolio-heading h5
+{
+      color:  var(--text-black-900);
+      font-weight: 500;
+}
+
 /* Config das Imagens - Não precisa diminuir as imagens só usar isso */
 
 .portfolio .portfolio-item
