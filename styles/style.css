@@ -669,9 +669,9 @@ h3 .my-profession {
       font-weight: 500;
 }
 
-.portfolio .portfolio-heading h5 {
+.portfolio .portfolio-heading h4 {
       color: var(--text-black-900);
-      font-weight: 500;
+      font-weight: 600;
 }
 
 /* Config das Imagens - Não precisa diminuir as imagens só usar isso */
