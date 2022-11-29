@@ -170,6 +170,7 @@ ul {
 
 .aside {
       width: 270px;
+      font-family: "Source Sans pro", Arial, Sans-serif;
       background: var(--bg-black-100);
       position: fixed;
       left: 0;
@@ -196,36 +197,12 @@ ul {
       font-weight: 700;
       padding: 15px 20px;
       font-size: 30px;
-      letter-spacing: 5px;
+      letter-spacing: 1px;
       position: relative;
 }
 
 .aside .logo a span {
       font-size: 30px;
-}
-
-/* Detalhes do Logo */
-
-.aside .logo a::before {
-      content: '';
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      border-bottom: 5px solid var(--skin-color);
-      border-left: 5px solid var(--skin-color);
-      bottom: 6px;
-      left: 0px;
-}
-
-.aside .logo a::after {
-      content: '';
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      border-top: 5px solid var(--skin-color);
-      border-right: 5px solid var(--skin-color);
-      top: 17px;
-      right: 5px;
 }
 
 /* Config bottoms */
