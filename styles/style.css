@@ -680,7 +680,53 @@ h3 .my-profession {
 /* Imagem pulando portfolio  */
 
 .portfolio-item:hover {
-      transform: scale(1.12);
+      transform: scale(1.1);
+}
+
+/* pop do portfolio */
+
+.popup-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, .9);
+      height: 100%;
+      width: 100%;
+      z-index: 100;
+      display: none;
+
+      flex: 0 0 100%;
+      max-width: 100%;
+      display: none;
+
+}
+
+.popup-image span {
+      position: absolute;
+      top: 5vh;
+      right: 5rem;
+      font-size: 4rem;
+      font-weight: bolder;
+      color: #ffffff;
+      cursor: pointer;
+      z-index: 100;
+      transition: 0.5 ease;
+}
+
+.popup-image span:hover {
+      color: var(--skin-color);
+      
+}
+
+.popup-image img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-40%, -50%);
+      border: 5px solid #ffffff;
+      border-radius: 5px;
+      width: 50%;
+      object-fit: cover;
 }
 
 /* Contact */
@@ -866,5 +912,23 @@ h3 .my-profession {
       .about .about-content .personal-info {
             flex: 0 0 100%;
             max-width: 100%;
+      }
+}
+
+@media (max-width: 768px) {
+      .popup-image img {
+            width: 450px;
+      }
+}
+
+@media (max-width: 568px) {
+      .popup-image img {
+            width: 380px;
+      }
+}
+
+@media (max-width: 418px) {
+      .popup-image img {
+            width: 350px;
       }
 }
