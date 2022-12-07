@@ -13,13 +13,13 @@ var typed = new Typed(".typing", {
 
 document.querySelectorAll('.portfolio-img img').forEach( image => {
     image.onclick = () => {
-        document.querySelector('.popup-image').style.display = 'block';
-        document.querySelector('.popup-image img').src = image.getAttribute('src');
+        document.querySelector('.modal').style.display = 'block';
+        document.querySelector('.modal img').src = image.getAttribute('src');
     }
 });
 
-document.querySelector('.popup-image span').onclick = () => {
-    document.querySelector('.popup-image').style.display = 'none'
+document.querySelector('.modal .popup-image span').onclick = () => {
+    document.querySelector('.modal').style.display = 'none'
 }
 
 
