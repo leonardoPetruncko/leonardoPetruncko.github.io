@@ -697,16 +697,16 @@ h3 .my-profession {
       bottom: 0;
       left: 0;
       right: 0;
-  
+
       background-color: rgba(0, 0, 0, 0.8);
-  
+
       display: flex;
       justify-content: center;
       align-items: center;
 
 }
 
-.container .modal .popup-image .btns {
+.modal .popup-image .btns {
       z-index: 1;
       width: 20rem;
       position: relative;
@@ -715,45 +715,45 @@ h3 .my-profession {
       background-color: #302e4d;
       border-radius: 5rem;
       padding: 2rem;
-  
+
       display: flex;
       justify-content: center;
-  }
+}
 
-  .container .modal .popup-image .btns a {
+.modal .popup-image .btns a {
       text-decoration: none;
       padding: .9rem;
       border-radius: .5rem;
       width: 7rem;
       text-align: center;
-  }
-  
-  .container .modal .popup-image .btns .btn-git {
+}
+
+.modal .popup-image .btns .btn-git {
       background-color: #fff;
       color: black;
       border: 1px solid #000;
       margin-right: 1rem;
       padding: 1rem;
       transition: all .5s ease-in-out;
-  }
-  
-  .container .modal .popup-image .btns .btn-git:hover {
+}
+
+.modal .popup-image .btns .btn-git:hover {
       background-color: cornflowerblue;
       color: #fff;
-  }
-  
-  .container .modal .popup-image .btns .btn-site {
+}
+
+.modal .popup-image .btns .btn-site {
       background-color: #fff;
       color: black;
       border: 1px solid #000;
       padding: 1rem;
       transition: all .5s ease-in-out;
-  }
-  
-  .container .modal .popup-image .btns .btn-site:hover {
+}
+
+.modal .popup-image .btns .btn-site:hover {
       background-color: cornflowerblue;
       color: #fff;
-  }
+}
 
 .popup-image span {
       position: absolute;
@@ -769,7 +769,7 @@ h3 .my-profession {
 
 .popup-image span:hover {
       color: var(--skin-color);
-      
+
 }
 
 .popup-image img {
@@ -979,5 +979,29 @@ h3 .my-profession {
       .popup-image img {
             width: 95%;
             left: 50%;
+      }
+}
+
+@media (max-width: 1368px) {
+      .modal .popup-image .btns {
+            top: 35%;
+            left: 7%;
+      }
+}
+
+
+@media (max-width: 1098px) {
+      .modal .popup-image .btns {
+            width: 35%;
+            top: 40%;
+            left: 1%;
+      }
+}
+
+@media (max-width: 768px) {
+      .modal .popup-image .btns{
+            width: 50%;
+            top: 35%;
+            left: 0%;
       }
 }
