@@ -11,18 +11,6 @@ var typed = new Typed(".typing", {
 
 /* ========================= ASIDE =======================  (muda de cor o navbar)*/
 
-document.querySelectorAll('.portfolio-img img').forEach( image => {
-    image.onclick = () => {
-        document.querySelector('.modal').style.display = 'block';
-        document.querySelector('.modal img').src = image.getAttribute('src');
-    }
-});
-
-document.querySelector('.modal .popup-image span').onclick = () => {
-    document.querySelector('.modal').style.display = 'none'
-}
-
-
 const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll("li"),
     totalNavList = navList.length,
