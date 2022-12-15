@@ -75,6 +75,8 @@ const projeto = [
     }
 ]
 
+console.table(projeto)
+
 const elementoParaInserirProjetos = document.getElementById('projetos')
 
 projeto.forEach(arrayProjetos => {
@@ -97,9 +99,8 @@ projeto.forEach(arrayProjetos => {
                             <div class="btns">
                                 <a class="btn-git" target="_blank"
                                     href="${arrayProjetos.github}">GitHub</a>
-                                <a class="btn-site" target="_blank"
-                                    href="${arrayProjetos.site}">Live
-                                    Mode</a>
+                                <a class="btn-site" target="_blank" 
+                                href="${arrayProjetos.site}">Live Mode</a>
                             </div>
                         </div>
                     </div>
