@@ -62,7 +62,7 @@ var projeto = [
         site: "",
     }
 ]
-    
+
 const elementoParaInserirProjetos = document.getElementById('projetos')
 
 projeto.forEach(projetos => {
@@ -82,18 +82,21 @@ projeto.forEach(projetos => {
                         <div class="popup-image">
                             <span>&times;</span>
                             <img alt="Image Portfolio">
+
+                        
         `
 })
 
+/* <div class="btns">
+<a class="btn" target="_blank"
+ href="${projetos.github}">GitHub</a>
 
-// <div class="btns">
-// <a class="btn-git" target="_blank"
-//     href="${projetos.github}">GitHub</a>
-// <a class="btn-site" target="_blank"
-// href="${projetos.site}">Live Mode</a>
-// </div>
-// </div>
-// </div>
+ <a class="btn" target="_blank"
+ href="${projetos.site}">Live Mode</a>
+</div>
+</div>
+</div> */
+
 
 document.querySelectorAll('.portfolio-img img').forEach(image => {
     image.onclick = () => {

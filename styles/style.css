@@ -93,7 +93,7 @@ ul {
       margin: auto;
 }
 
-.tiection .container {
+.section .container {
       padding-top: 60px;
       padding-bottom: 70px;
 }
@@ -144,6 +144,7 @@ ul {
 }
 
 .btn {
+      margin-right: 10px;
       font-size: 16px;
       font-weight: 500;
       padding: 12px 35px;
@@ -216,7 +217,7 @@ ul {
       left: 300px;
       top: 20px;
       border-radius: 5px;
-      background: var(--bg-black-100);
+      background: var(--bg-black-50);
       display: none;
       align-items: center;
       justify-content: center;
@@ -651,7 +652,7 @@ h3 .my-profession {
       font-weight: 600;
 }
 
-/* Config das Imagens - Não precisa diminuir as imagens só usar isso */
+/* Config das Imagens */
 
 .portfolio .portfolio-item {
       flex: 0 0 33.33%;
@@ -681,7 +682,7 @@ h3 .my-profession {
 
 .portfolio-item:hover {
       transform: scale(1.1);
-      transition: 0.8 ease;
+      transition: 0.4 ease;
 }
 
 /* popup dos portfolios */
@@ -704,8 +705,13 @@ h3 .my-profession {
       display: flex;
       justify-content: center;
       align-items: center;
+}
+
+.row .popup-image img {
+      border: 5px solid var(--bg-black-100);
 
 }
+
 
 .modal .popup-image .btns {
       z-index: 1;
@@ -713,47 +719,12 @@ h3 .my-profession {
       position: relative;
       top: 24rem;
       left: 7rem;
-      background-color: #302e4d;
+      background-color: var(--bg-black-100);
       border-radius: 5rem;
       padding: 2rem;
 
       display: flex;
       justify-content: center;
-}
-
-.modal .popup-image .btns a {
-      text-decoration: none;
-      padding: .9rem;
-      border-radius: .5rem;
-      width: 7rem;
-      text-align: center;
-}
-
-.modal .popup-image .btns .btn-git {
-      background-color: #fff;
-      color: black;
-      border: 1px solid #000;
-      margin-right: 1rem;
-      padding: 1rem;
-      transition: all .5s ease-in-out;
-}
-
-.modal .popup-image .btns .btn-git:hover {
-      background-color: cornflowerblue;
-      color: #fff;
-}
-
-.modal .popup-image .btns .btn-site {
-      background-color: #fff;
-      color: black;
-      border: 1px solid #000;
-      padding: 1rem;
-      transition: all .5s ease-in-out;
-}
-
-.modal .popup-image .btns .btn-site:hover {
-      background-color: cornflowerblue;
-      color: #fff;
 }
 
 .popup-image span {
@@ -985,7 +956,7 @@ h3 .my-profession {
 
 @media (max-width: 1368px) {
       .modal .popup-image .btns {
-            top:38%;
+            top: 38%;
             left: 7%;
       }
 }
@@ -999,7 +970,7 @@ h3 .my-profession {
 }
 
 @media (max-width: 768px) {
-      .modal .popup-image .btns{
+      .modal .popup-image .btns {
             width: 50%;
             top: 35%;
             left: 0%;
