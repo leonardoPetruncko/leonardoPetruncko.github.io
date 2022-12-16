@@ -985,14 +985,7 @@ h3 .my-profession {
 
 @media (max-width: 1368px) {
       .modal .popup-image .btns {
-            top: 35%;
-            left: 7%;
-      }
-}
-
-@media (max-width: 1568px) {
-      .modal .popup-image .btns {
-            top: 30%;
+            top:38%;
             left: 7%;
       }
 }
