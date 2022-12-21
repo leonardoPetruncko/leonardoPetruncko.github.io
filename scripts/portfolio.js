@@ -1,20 +1,21 @@
 
 var projeto = [
+
     {
-        titulo: "Tela de login - Tegra | HTML e CSS",
-        imagem: "images/projetos/port-telategra.gif",
-        github: "https://github.com/leonardoPetruncko/TegraFOOD",
-        site: "https://tegra-login-food-lp.netlify.app",
+        titulo: "TecFilmes | HTML, CSS, JS e API",
+        imagem: "images/projetos/port tecFilmes.gif",
+        github: "https://github.com/leonardoPetruncko/Movie-Search",
+        site: "https://moviesearch-lp.netlify.app",
+    }, {
+        titulo: "TecSuperhero | HTML, CSS, JS e API",
+        imagem: "images/projetos/portsuper.gif",
+        github: "",
+        site: "",
     }, {
         titulo: "Pokédex | HTML, CSS, JS e API",
         imagem: "images/projetos/port-pokedex.gif",
         github: "https://github.com/leonardoPetruncko/Pokedex",
         site: "https://pokedexjs-lp.netlify.app",
-    }, {
-        titulo: "TecFilmes | HTML, CSS, JS e API",
-        imagem: "images/projetos/TecFilmes.gif",
-        github: "https://github.com/leonardoPetruncko/Movie-Search",
-        site: "https://moviesearch-lp.netlify.app",
     }, {
         titulo: "Numero Secreto | HTML, CSS e JS",
         imagem: "images/projetos/port acerte.gif",
@@ -26,10 +27,10 @@ var projeto = [
         github: "",
         site: "",
     }, {
-        titulo: "TecSuperhero | HTML, CSS, JS e API",
-        imagem: "images/projetos/port superHero.gif",
-        github: "",
-        site: "",
+        titulo: "Tela de login - Tegra | HTML e CSS",
+        imagem: "images/projetos/port-telategra.gif",
+        github: "https://github.com/leonardoPetruncko/TegraFOOD",
+        site: "https://tegra-login-food-lp.netlify.app",
     }, {
         titulo: "ALURABooks | HTML, CSS e JS",
         imagem: "images/projetos/port alurabooks.gif",
