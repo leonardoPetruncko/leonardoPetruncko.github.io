@@ -12,6 +12,11 @@ var projeto = [
         github: "",
         site: "",
     }, {
+        titulo: "QRcode | React ",
+        imagem: "images/projetos/qrcode.gif",
+        github: "",
+        site: "",
+    }, {
         titulo: "Pokédex | HTML, CSS, JS e API",
         imagem: "images/projetos/port-pokedex.gif",
         github: "https://github.com/leonardoPetruncko/Pokedex",
