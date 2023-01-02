@@ -1,10 +1,10 @@
 const projeto = [
 
     {
-        titulo: "TecFilmes | HTML, CSS, JS e API",
-        imagem: "images/projetos/port tecFilmes.gif",
-        github: "https://github.com/leonardoPetruncko/Movie-Search",
-        site: "https://moviesearch-lp.netlify.app",
+        "titulo": "TecFilmes | HTML, CSS, JS e API",
+        "imagem": "images/projetos/port tecFilmes.gif",
+        "github": "https://github.com/leonardoPetruncko/Movie-Search",
+        "site": "https://moviesearch-lp.netlify.app",
     }, {
         titulo: "TecSuperhero | HTML, CSS, JS e API",
         imagem: "images/projetos/portsuper.gif",
@@ -87,9 +87,7 @@ const projeto = [
         site: "",
     }
 ]
-
 const elementoParaInserirProjetos = document.getElementById('projetos')
-
 projeto.forEach(e => {
     elementoParaInserirProjetos.innerHTML += `
 
