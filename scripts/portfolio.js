@@ -143,9 +143,6 @@ projeto.forEach(e => {
 //                     </div>
 //             </div>`).join("")
 
-
-
-
 document.querySelectorAll('.portfolio-img img').forEach(image => {
     image.onclick = () => {
         document.querySelector('.modal').style.display = 'block';
