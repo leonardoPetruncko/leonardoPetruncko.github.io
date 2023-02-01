@@ -154,11 +154,11 @@ ul {
       white-space: nowrap;
       border: none;
       background: var(--skin-color);
-      transition: all 0.3s ease;
+      transition: all 0.4s ease;
 }
 
 .btn:hover {
-      transform: scale(1.10);
+      transform: scale(1.1);
 }
 
 /* Sombra */
@@ -670,6 +670,7 @@ h3 .my-profession {
 .portfolio .portfolio-item-inner .portfolio-img img {
       width: 100%;
       display: block;
+      cursor: pointer;
 }
 
 /* Cor do nome do projeto */
@@ -678,18 +679,12 @@ h3 .my-profession {
       color: var(--text-black-900);
 }
 
-/* Imagem pulando portfolio  */
-
-.portfolio-item:hover {
-      transform: scale(1.1);
-      transition: 0.4 ease;
-}
-
 /* popup dos portfolios */
 
 .row .modal {
       display: none;
       z-index: 1;
+      
 }
 
 .row .popup-image {
@@ -705,6 +700,7 @@ h3 .my-profession {
       display: flex;
       justify-content: center;
       align-items: center;
+      
 }
 
 .row .popup-image img {
@@ -712,10 +708,19 @@ h3 .my-profession {
 
 }
 
+.portfolio-item .btns .btn {
+      margin-top: 10px;
+      position:relative;
+	margin-left: 40px;
+      padding: 15px;
+      background: #49678D;
+      border-radius: 20px;
+      
+      
+}
 
 .modal .popup-image .btns {
-      z-index: 1;
-      width: 20rem;
+
       position: relative;
       top: 24rem;
       left: 7rem;

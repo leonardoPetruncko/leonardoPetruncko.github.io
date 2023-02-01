@@ -1,32 +1,29 @@
 let divProjetos = document.getElementById('projetos');
 
-fetch("dados.json")
-    .then((response) => {
-        response.json().then((dados) => {
-            dados.portfolio.map((e) => {
-                divProjetos.innerHTML += `
-          <div class="portfolio-item padd-15">
-            <div class="portfolio-item-inner shadow-dark">
-              <div class="portfolio-img">
-                <a class="post">${e.titulo}</a>
-                <img src="${e.imagem}" alt="">
-              </div>
+fetch("dados.json").then((response) => {
+    response.json().then((dados) => {
+        dados.portfolio.map((e) => {
+            divProjetos.innerHTML += `
+            <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                    <div class="portfolio-img">
+                        <a class="post">${e.titulo}</a>
+                        <img src="${e.imagem}" alt="">
+                    </div>
+                </div>
+                <div class="btns">
+                        <a class="btn" target="_blank" href="${e.github}">GitHub</a>
+                        <a class="btn" target="_blank" href="${e.site}">Live Mode</a>
+                    </div>
             </div>
-          </div>
           
           <div class="modal">
             <div class="popup-image">
               <span class="close">&times;</span>
               <img alt="Image Portfolio">
-
-              <div class="btns">
-              <a class="btn" target="_blank" href="${e.github}">GitHub</a>
-              <a class="btn" target="_blank" href="${e.site}">Live Mode</a>
-            </div>
             </div>
           </div>
-          
-         
+               
         `;
             });
             document.querySelectorAll('.portfolio-img img').forEach(image => {
