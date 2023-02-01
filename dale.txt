@@ -190,3 +190,112 @@ document.querySelectorAll('.portfolio-img img').forEach(image => {
 document.querySelector('.modal').onclick = () => {
     document.querySelector('.modal').style.display = 'none'
 }
+==================================
+
+
+let divProjetos = document.getElementById('projetos');
+
+fetch("dados.json")
+  .then(response => {
+    return response.json();
+  })
+  .then(dados => {
+    dados.portfolio.forEach(e => {
+      let item = document.createElement("div");
+      item.classList.add("portfolio-item", "padd-15");
+
+      let inner = document.createElement("div");
+      inner.classList.add("portfolio-item-inner", "shadow-dark");
+
+      let imgDiv = document.createElement("div");
+      imgDiv.classList.add("portfolio-img");
+
+      let link = document.createElement("a");
+      link.classList.add("post");
+      link.textContent = e.titulo;
+
+      let img = document.createElement("img");
+      img.src = e.imagem;
+      img.alt = "";
+
+      let modal = document.createElement("div");
+      modal.classList.add("modal");
+
+      let popupImage = document.createElement("div");
+      popupImage.classList.add("popup-image");
+
+      let span = document.createElement("span");
+      span.textContent = "×";
+
+      let modalImg = document.createElement("img");
+      modalImg.alt = "Image Portfolio";
+
+      let btns = document.createElement("div");
+      btns.classList.add("btns");
+
+      let githubBtn = document.createElement("a");
+      githubBtn.classList.add("btn");
+      githubBtn.textContent = "GitHub";
+      githubBtn.target = "_blank";
+      githubBtn.href = e.github;
+
+      let liveBtn = document.createElement("a");
+      liveBtn.classList.add("btn");
+      liveBtn.textContent = "Live Mode";
+      liveBtn.target = "_blank";
+      liveBtn.href = e.site;
+
+      imgDiv.appendChild(link);
+      imgDiv.appendChild(img);
+      inner.appendChild(imgDiv);
+      item.appendChild(inner);
+      divProjetos.appendChild(item);
+
+      popupImage.appendChild(span);
+      popupImage.appendChild(modalImg);
+      modal.appendChild(popupImage);
+      divProjetos.appendChild(modal);
+
+      btns.appendChild(githubBtn);
+      btns.appendChild(liveBtn);
+      divProjetos.appendChild(btns);
+
+      img.onclick = () => {
+        modal.style.display = "block";
+        modalImg.src = img.src;
+
+      };
+      modal.onclick = () => {
+        modal.style.display = "none";
+      };
+    });
+  });
+
+
+
+
+  =============================================
+
+
+  let divProjetos = document.getElementById('projetos');
+
+fetch("dados.json").then((response) => {
+    response.json().then((dados) => {
+        dados.portfolio.map((e) => {
+            divProjetos.innerHTML += `
+            <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                    <div class="portfolio-img">
+                        <a class="post">${e.titulo}</a>
+                        <img src="${e.imagem}" alt="">
+                    </div>
+                </div>
+                <div class="btns">
+                        <a class="btn" target="_blank" href="${e.github}">GitHub</a>
+                        <a class="btn" target="_blank" href="${e.site}">Live Mode</a>
+                    </div>
+            </div>
+            `
+        });
+    });
+});
