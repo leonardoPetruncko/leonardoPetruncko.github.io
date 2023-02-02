@@ -19,6 +19,12 @@
             "site": "https://qrcode-lp.netlify.app/"
         },
         {
+            "titulo": "Monte seu time LOL | React",
+            "imagem": "",
+            "github": "https://github.com/leonardoPetruncko/Monteseutimelol",
+            "site": "https://monteseutimelollp.netlify.app/"
+        },
+        {
             "titulo": "Pokédex | HTML, CSS, JS e API",
             "imagem": "images/projetos/port-pokedex.gif",
             "github": "https://github.com/leonardoPetruncko/Pokedex",
