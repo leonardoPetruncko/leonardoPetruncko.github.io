@@ -9,14 +9,20 @@
         {
             "titulo": "TecSuperhero | HTML, CSS, JS e API",
             "imagem": "images/projetos/portsuper.gif",
-            "github": "",
-            "site": ""
+            "github": "https://github.com/leonardoPetruncko/superHeroPesquisaAPI",
+            "site": "https://superheropesquisa-lp.netlify.app/"
         },
         {
             "titulo": "QRcode | React ",
             "imagem": "images/projetos/qrcode.gif",
-            "github": "",
-            "site": ""
+            "github": "https://github.com/leonardoPetruncko/qrcode",
+            "site": "https://qrcode-lp.netlify.app/"
+        },
+        {
+            "titulo": "Monte seu time LOL | React",
+            "imagem": "",
+            "github": "https://github.com/leonardoPetruncko/Monteseutimelol",
+            "site": "https://monteseutimelollp.netlify.app/"
         },
         {
             "titulo": "Pokédex | HTML, CSS, JS e API",
@@ -27,14 +33,14 @@
         {
             "titulo": "Numero Secreto | HTML, CSS e JS",
             "imagem": "images/projetos/port acerte.gif",
-            "github": "",
-            "site": ""
+            "github": "https://github.com/leonardoPetruncko/ConhecimentoDeVozJS",
+            "site": "https://numero-secreto-lp.netlify.app"
         },
         {
             "titulo": "Mochila de Viagem | HTML, CSS e JS",
             "imagem": "images/projetos/port mochila.gif",
-            "github": "",
-            "site": ""
+            "github": "https://github.com/leonardoPetruncko/MochilaViagemApp",
+            "site": "https://mochilaapplp.netlify.app/"
         },
         {
             "titulo": "Tela de login - Tegra | HTML e CSS",
@@ -45,8 +51,8 @@
         {
             "titulo": "ALURABooks | HTML, CSS e JS",
             "imagem": "images/projetos/port alurabooks.gif",
-            "github": "",
-            "site": ""
+            "github": "https://github.com/leonardoPetruncko/Alura-books",
+            "site": "https://alurabooks-cep-lp.netlify.app"
         },
         {
             "titulo": "Order Sumary | HTML e CSS",
