@@ -19,8 +19,8 @@
             "site": "https://qrcode-lp.netlify.app/"
         },
         {
-            "titulo": "Monte seu time LOL| React",
-            "imagem": "",
+            "titulo": "Monte seu time CSGO | React",
+            "imagem": "images/projetos/csgo.gif",
             "github": "https://github.com/leonardoPetruncko/Monteseutimelol",
             "site": "https://monteseutimelollp.netlify.app/"
         },
