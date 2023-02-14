@@ -2,7 +2,7 @@
 
 var typed = new Typed(".typing", {
 
-    strings: ["", "  Desenvolvedor Full-Stack MERN ", "Desenvolvedor de Software"],
+    strings: ["","Desenvolvedor de Software", "  Desenvolvedor Full-Stack MERN " , "Futuro DBA"],
 
     typeSpeed: 100,
     loop: true
