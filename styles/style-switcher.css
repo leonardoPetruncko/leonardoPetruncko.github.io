@@ -46,7 +46,7 @@
 }
 
 .style-switcher h4 {
-      margin: 0 0 10px;
+      margin: 0 0 15px;
       color: var(--text-black-700);
       font-size: 16px;
       font-weight: 600;
@@ -55,7 +55,7 @@
 
 .style-switcher .colors {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: wrap
       justify-content: space-between;
 }
 
