@@ -55,13 +55,13 @@
 
 .style-switcher .colors {
       display: flex;
-      flex-wrap: wrap
+      flex-wrap: wrap;
       justify-content: space-between;
 }
 
 .style-switcher .colors span {
       display: inline-block;
-      height: 30px;
+      height: 20px;
       width: 30px;
       border-radius: 50%;
       border: 1px solid;
